@@ -1,4 +1,4 @@
-package com.example.dog_quiz
+package by.andreilia.dog_quiz
 
 import io.flutter.embedding.android.FlutterActivity
 
