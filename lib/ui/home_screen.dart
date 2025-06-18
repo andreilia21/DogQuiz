@@ -10,10 +10,14 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          OutlinedButton(
-              onPressed: () => context.push(Routes.quiz),
-              child: const Text("Start")
+          Center(
+            child: OutlinedButton(
+                onPressed: () => context.push(Routes.quiz),
+                child: const Text("Start")
+            ),
           )
         ],
       ),

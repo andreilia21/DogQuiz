@@ -12,7 +12,7 @@ class QuizScreen extends StatelessWidget {
       body: Column(
         children: [
           OutlinedButton(
-              onPressed: () => context.push(Routes.results),
+              onPressed: () => context.pushReplacement(Routes.results),
               child: const Text("Check")
           )
         ],

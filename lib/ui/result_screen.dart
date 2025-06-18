@@ -11,8 +11,8 @@ class ResultScreen extends StatelessWidget {
       body: Column(
         children: [
           OutlinedButton(
-              onPressed: () => context.pushReplacement(Routes.home),
-              child: const Text("Check")
+              onPressed: () => context.go(Routes.home),
+              child: const Text("Go home")
           )
         ],
       ),
